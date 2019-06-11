@@ -1,0 +1,131 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+body {
+	font-family: helvetica, arial, sans-seriff;
+	background-image: url(images/dangerous_grimorous_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #120807;
+}
+
+#wrapper {
+	width: 950px;
+	margin: auto;
+	background-image:url(images/wrapper_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#inner-wrapper {
+	width: 900px;
+	margin: auto;
+}
+
+#primary ul {
+	background-color: red;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+#primary img {
+	vertical-align: bottom;
+}
+
+header img {
+	vertical-align: bottom;
+}
+
+main {
+	width: 900px;
+	display: flex;
+}
+
+main a {
+	color: #b19d85;
+	text-decoration: none;
+}
+
+section {
+	margin: auto;
+	border-right: 1px solid #FFF;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+#secondary {
+	width: 450px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h1 {
+	font-weight: normal;
+	margin-top: 20px;
+	color: #bcb46c;
+	font-size: 25px;
+}
+
+h2 {
+	font-weight: normal;
+	margin-top: 20px;
+	color: #bcb46c;
+	font-size: 25px;
+}
+
+p {
+	font-size: 12px;
+	margin-top: 20px;
+	color:#e8efff;
+}
+
+#secondary ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#secondary li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#secondary a:hover {
+	color: #da821e;
+}
+
+#secondary #play {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+footer {
+	margin-bottom: 14px;
+	padding-top: 10px;
+	background-image: url(images/footer_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+footer ul {
+	width: 425px;
+	margin: auto;
+	font-size: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #abba99;
+}
+
+footer a {
+	color: #abba99;
+	text-decoration: none;
+}
+
+
